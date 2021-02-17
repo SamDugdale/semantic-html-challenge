@@ -10,12 +10,15 @@ h1 {
   color: #373fff;
 }
 
+tbody>tr{
+      background-image: url("./assets/noise.png");
+}
 
 tr:nth-child(odd) {
-  background-color: deeppink;
+  background-color: #ff33cc;
 }
 tr:nth-child(even) {
-  background-color: lightpink;
+  background-color: #e495e4;
 }
 
 thead>tr,
@@ -26,5 +29,5 @@ tfoot>tr {
 }
 
 tbody {
-  font-family: 'Helvetica Neu', 'sans-serif';
+  font-family: 'Helvetica Neu', 'Verda', 'sans-serif';
 }
