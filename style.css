@@ -43,6 +43,7 @@ tbody {
 .collapse {
   border-collapse: collapse;
 }
+
 table {
   display: inline-table;
   margin: 1em;
