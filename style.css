@@ -25,14 +25,14 @@ tr:nth-child(even) {
 
 thead>tr>th,
 tfoot>tr>th {
-  padding: 15px;
   border-color: #800080;
+  padding: 15px;
   border-width: 3px;
   border-style: solid;
   font-family: 'Rock Salt', cursive;
-  background-image: url("./assets/leopardskin.jpg");
   color: white;
   text-shadow: 2px 2px black;
+  background-image: url("./assets/leopardskin.jpg");
   background: linear-gradient(to bottom, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.5) 100%), url("./assets/leopardskin.jpg");
 }
 
@@ -50,12 +50,13 @@ table {
   table-layout: auto;
   width: 100%;
   text-align: center;
+  line-height: 60px;
 }
 
 caption {
-  padding: 10px;
+  color: #808080;
+  padding: 12px;
   caption-side: bottom;
   text-align: right;
   font-family: 'Rock Salt', cursive;
-  color: grey;
 }
