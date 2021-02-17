@@ -11,10 +11,19 @@ h1 {
 }
 
 
-tr:nth-child(odd) {background-color: deeppink;}
-tr:nth-child(even) {background-color: lightpink;}
+tr:nth-child(odd) {
+  background-color: deeppink;
+}
+tr:nth-child(even) {
+  background-color: lightpink;
+}
 
-.table-header{
-  color: white; 
+thead>tr { color: white;
     background-image: url("./assets/leopardskin.jpg");
+}
+
+tfoot>tr {
+  font family: 'Rock-Salt', cursive;
+  color: white;
+  background-image: url("./assets/leopardskin.jpg");
 }
