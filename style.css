@@ -22,7 +22,7 @@ thead>tr { color: white;
     background-image: url("./assets/leopardskin.jpg");
 }
 
-tfoot>tr {
+tfoot {
   font family: 'Rock-Salt', cursive;
   color: white;
   background-image: url("./assets/leopardskin.jpg");
