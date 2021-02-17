@@ -18,12 +18,13 @@ tr:nth-child(even) {
   background-color: lightpink;
 }
 
-thead>tr { color: white;
-    background-image: url("./assets/leopardskin.jpg");
-}
-
-tfoot {
+thead>tr,
+tfoot>tr {
   font family: 'Rock-Salt', cursive;
   color: white;
   background-image: url("./assets/leopardskin.jpg");
+}
+
+tbody {
+  font-family: 'Helvetica Neu', 'sans-serif';
 }
