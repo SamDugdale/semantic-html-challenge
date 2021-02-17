@@ -10,6 +10,6 @@ h1 {
   color: #373fff;
 }
 
-tr
-{ background-color: deeppink
-}
+
+tr:nth-child(odd) {background-color: deeppink;}
+tr:nth-child(even) {background-color: lightpink;}
