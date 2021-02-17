@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Hello!</title>
+    <title>Sam Dugdale Semantic HTML Challenge</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,10 +11,13 @@
 
   </head>
   <body>
-<table>
+<table class="collapse">
   <thead>
     <tr>
-      <td>Band</td><td>Year Formed</td><td>No. of Albums</td><td>Most Famous Song</td>
+      <th scope="col" style="width:30%">Band</th>
+      <th scope="col" style="width:15%">Year Formed</th>
+      <th scope="col" style="width:15%">No. of Albums</th>
+      <th scope="col" style="width:40%">Most Famous Song</th>
     </tr>
   </thead>
   <tbody>
@@ -29,11 +32,14 @@
 </tbody>
 <tfoot>
   <tr>
-<td></td>
-    <td>Total Albums</td><td>77</td><td></td>
+<tr>
+  <th scope="col" colspan="2" style="text-align:right">Total Albums</th>
+  <th scope="col" colspan="2" style="text-align:left">77</th>
   </tr>
 </tfoot>
+ <caption>A Summary of the UK's Most Famous Punk Bands</caption>
 </table>
+
 
 
     <!-- include the Glitch button to show what the webpage is about and
